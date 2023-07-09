@@ -1,27 +1,9 @@
-import React, { useState } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
-
-const images = [
-  { source: "https://drake-react.vercel.app/assets/images/portfolio1.jpg" },
-  { source: "https://drake-react.vercel.app/assets/images/portfolio2.jpg" },
-];
+import React from "react";
 
 const Gallery = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-
-  const openModal = (index) => {
-    setSelectedImageIndex(index);
-    setModalIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-  };
-
   return (
     <div>
-      <div className="grid grid-cols-2 gap-6">
+      {/* <div className="grid grid-cols-2 gap-6">
         {images.map((image, index) => (
           <div className="relative group">
             <img
@@ -61,7 +43,7 @@ const Gallery = () => {
             <Carousel views={images} currentIndex={selectedImageIndex} />
           </Modal>
         )}
-      </ModalGateway>
+      </ModalGateway> */}
     </div>
   );
 };

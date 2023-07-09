@@ -19,7 +19,7 @@ const Projects = () => {
         Featured<span className="text-[#28e98c]"> Projects</span>
       </h2>
 
-      <Gallery />
+      {/* <Gallery /> */}
     </div>
   );
 };
