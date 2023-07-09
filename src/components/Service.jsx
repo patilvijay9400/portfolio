@@ -2,7 +2,7 @@ import React from "react";
 
 const Service = () => {
   return (
-    <div>
+    <div className="md:pe-24 pt-5">
       <span
         className="text-white rounded-full px-4 py-2 border border-slate-600 text-xs w-fit"
         data-aos="fade-up"
@@ -11,7 +11,7 @@ const Service = () => {
         <i className="fa-solid fa-house me-2"></i> SERVICE
       </span>
       <h2
-        className="text-white text-6xl my-10"
+        className="text-white text-xl md:text-6xl my-10"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
@@ -24,7 +24,9 @@ const Service = () => {
           data-aos-duration="2000"
         >
           <div className="flex">
-            <h2 className="text-white text-2xl mb-2">Website Design</h2>
+            <h2 className="text-white text-xl md:text-2xl mb-2">
+              Website Design
+            </h2>
           </div>
           <p className="text-xs mb-7 text-slate-400">
             I created digital products with unique ideas use Figma & Framer
@@ -39,7 +41,9 @@ const Service = () => {
           data-aos-duration="2000"
         >
           <div className="flex">
-            <h2 className="text-white text-2xl mb-2">Website Design</h2>
+            <h2 className="text-white text-xl md:text-2xl mb-2">
+              Website Design
+            </h2>
           </div>
           <p className="text-xs mb-7 text-slate-400">
             I created digital products with unique ideas use Figma & Framer
@@ -54,7 +58,9 @@ const Service = () => {
           data-aos-duration="2000"
         >
           <div className="flex">
-            <h2 className="text-white text-2xl mb-2">Website Design</h2>
+            <h2 className="text-white text-xl md:text-2xl mb-2">
+              Website Design
+            </h2>
           </div>
           <p className="text-xs mb-7 text-slate-400">
             I created digital products with unique ideas use Figma & Framer

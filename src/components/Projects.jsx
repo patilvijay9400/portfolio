@@ -3,7 +3,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="md:pe-24 pt-5">
       <span
         className="text-white rounded-full px-4 py-2 border border-slate-600 text-xs w-fit"
         data-aos="fade-up"
@@ -12,7 +12,7 @@ const Projects = () => {
         <i className="fa-solid fa-house me-2"></i> PROJECTS
       </span>
       <h2
-        className="text-white text-6xl my-10"
+        className="text-white text-xl md:text-6xl my-10"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
