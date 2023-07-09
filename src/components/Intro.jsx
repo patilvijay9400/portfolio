@@ -27,7 +27,7 @@ const Intro = () => {
         simple like that!
       </p>
       <a
-        href="#"
+        href="#projects"
         className="relative w-44 h-44 rounded-full border border-slate-600 flex justify-center items-center ms-auto"
       >
         <img

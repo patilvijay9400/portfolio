@@ -29,12 +29,9 @@ const Service = () => {
           <p className="text-xs mb-7 text-slate-400">
             I created digital products with unique ideas use Figma & Framer
           </p>
-          <a
-            href="#"
-            className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]"
-          >
+          <button className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]">
             24 PROJECTS
-          </a>
+          </button>
         </div>
         <div
           className="group border border-slate-600 rounded-3xl px-11 py-9 hover:border-[#28e98c]"
@@ -47,12 +44,9 @@ const Service = () => {
           <p className="text-xs mb-7 text-slate-400">
             I created digital products with unique ideas use Figma & Framer
           </p>
-          <a
-            href="#"
-            className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]"
-          >
+          <button className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]">
             24 PROJECTS
-          </a>
+          </button>
         </div>
         <div
           className="group border border-slate-600 rounded-3xl px-11 py-9 hover:border-[#28e98c]"
@@ -65,12 +59,9 @@ const Service = () => {
           <p className="text-xs mb-7 text-slate-400">
             I created digital products with unique ideas use Figma & Framer
           </p>
-          <a
-            href="#"
-            className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]"
-          >
+          <button className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]">
             24 PROJECTS
-          </a>
+          </button>
         </div>
       </div>
     </div>
