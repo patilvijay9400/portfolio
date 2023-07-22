@@ -35,7 +35,7 @@ const ImageGallery = () => {
         <div key={index} className="relative group">
           <img
             src={image.src}
-            alt={`Image ${index + 1}`}
+            alt={`project ${index + 1}`}
             onClick={() => openSlider(index)}
             className="rounded-lg cursor-pointer"
           />

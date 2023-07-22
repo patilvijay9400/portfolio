@@ -22,7 +22,7 @@ const ImageSlider = ({ images, onClose, selectedImageIndex }) => {
       <div className="slider-image-container">
         <img
           src={images[currentIndex].src}
-          alt={`Image ${currentIndex + 1}`}
+          alt={`project ${currentIndex + 1}`}
           className="h-[80vh]"
         />
       </div>
