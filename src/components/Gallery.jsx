@@ -1,51 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
+import ImageSlider from "./ImageSlider"; // Assuming ImageSlider component is in a separate file
 
-const Gallery = () => {
+const ImageGallery = () => {
+  const [showSlider, setShowSlider] = useState(false);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+
+  const images = [
+    {
+      src: "https://drake-react.vercel.app/assets/images/portfolio1.jpg",
+      langs: ["figma", "html"],
+    },
+    {
+      src: "https://drake-react.vercel.app/assets/images/portfolio2.jpg",
+      langs: ["HTML", "javascript"],
+    },
+    {
+      src: "https://drake-react.vercel.app/assets/images/portfolio3.jpg",
+      langs: ["React"],
+    },
+  ];
+
+  const openSlider = (index) => {
+    setSelectedImageIndex(index);
+    setShowSlider(true);
+  };
+
+  const closeSlider = () => {
+    setShowSlider(false);
+  };
+
   return (
-    <div>
-      {/* <div className="grid grid-cols-2 gap-6">
-        {images.map((image, index) => (
-          <div className="relative group">
-            <img
-              key={index}
-              src={image.source}
-              alt={`Image ${index}`}
-              onClick={() => openModal(index)}
-              className="cursor-pointer w-full rounded-3xl border border-slate-400"
-            />
-            <div className="flex gap-3 absolute bottom-5 left-5">
-              <a
-                href="#"
-                className="rounded-xl px-2 py-1 bg-white group-hover:bg-slate-950 group-hover:text-white"
+    <div className="image-gallery grid grid-cols-2 gap-5">
+      {images.map((image, index) => (
+        <div key={index} className="relative group">
+          <img
+            src={image.src}
+            alt={`Image ${index + 1}`}
+            onClick={() => openSlider(index)}
+            className="rounded-lg cursor-pointer"
+          />
+          <div className="absolute bottom-4 left-4 flex gap-2 opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out">
+            {image.langs.map((lang, langIndex) => (
+              <div
+                key={langIndex}
+                className="bg-slate-300 rounded-xl px-2 py-1"
               >
-                Figma
-              </a>
-              <a
-                href="#"
-                className="rounded-xl px-2 py-1 bg-white group-hover:bg-slate-950 group-hover:text-white"
-              >
-                Figma
-              </a>
-              <a
-                href="#"
-                className="rounded-xl px-2 py-1 bg-white group-hover:bg-slate-950 group-hover:text-white"
-              >
-                Figma
-              </a>
-            </div>
+                {lang}
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-
-      <ModalGateway>
-        {modalIsOpen && (
-          <Modal onClose={closeModal}>
-            <Carousel views={images} currentIndex={selectedImageIndex} />
-          </Modal>
-        )}
-      </ModalGateway> */}
+        </div>
+      ))}
+      {showSlider && (
+        <div className="modal-overlay fixed w-full h-full p-10 bg-slate-400 top-0 left-0 bottom-0 flex items-center justify-center">
+          <ImageSlider
+            images={images}
+            onClose={closeSlider}
+            selectedImageIndex={selectedImageIndex} // Pass the selectedImageIndex
+          />
+        </div>
+      )}
     </div>
   );
 };
 
-export default Gallery;
+export default ImageGallery;

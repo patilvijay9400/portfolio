@@ -1,5 +1,5 @@
 import React from "react";
-// import Gallery from "./Gallery";
+import Gallery from "./Gallery";
 
 const Projects = () => {
   return (
@@ -19,7 +19,7 @@ const Projects = () => {
         Featured<span className="text-[#28e98c]"> Projects</span>
       </h2>
 
-      {/* <Gallery /> */}
+      <Gallery />
     </div>
   );
 };

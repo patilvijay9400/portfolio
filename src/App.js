@@ -15,7 +15,7 @@ function App() {
             <div className="flex justify-between items-center">
               <h1 className="text-white text-xl uppercase font-bold">Vijay</h1>
               <h3 className="text-white font-medium text-xs w-24 text-end">
-                UI/UX Designer & Developer
+                Frontend Designer
               </h3>
             </div>
             <img
