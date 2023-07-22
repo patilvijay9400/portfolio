@@ -3,7 +3,7 @@ import Gallery from "./Gallery";
 
 const Projects = () => {
   return (
-    <div className="md:pe-24 pt-5">
+    <div className="md:pe-24 pt-5" id="projects">
       <span
         className="text-white rounded-full px-4 py-2 border border-slate-600 text-xs w-fit"
         data-aos="fade-up"

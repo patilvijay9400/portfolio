@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div className="md:pe-24 pt-5">
+    <div className="md:pe-24 pt-5" id="resume">
       <span
         className="text-white rounded-full px-4 py-2 border border-slate-600 text-xs w-fit"
         data-aos="fade-up"

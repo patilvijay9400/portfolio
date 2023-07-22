@@ -5,6 +5,7 @@ import Intro from "./components/Intro";
 import Service from "./components/Service";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import { Contact } from "./components/Contact";
 function App() {
   return (
     <div className="main-container bg-slate-950">
@@ -103,17 +104,26 @@ function App() {
               </span>
             </a>
           </li>
+          <li className="py-3">
+            <a href="#contact" className="relative group">
+              <i className="fa-solid fa-user text-white hover:text-[#28e98c]"></i>
+              <span className="absolute right-8 bg-gray-600 text-white px-2 py-1 text-xs rounded  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Contact
+              </span>
+            </a>
+          </li>
         </ul>
         {/* --------------Menu-Bar section end--------------- */}
       </div>
       {/* --------------Main section start--------------- */}
       <main className="md:py-5 py-1 px-2 md:px-20 md:ms-20 lg:px-64 lg:ms-96 pt-2 md:pt-10 flex flex-col gap-2 md:gap-36">
-        <Intro id="home" />
-        <About id="about" />
-        <Resume id="resume" />
-        <Service id="service" />
-        <Skills id="skills" />
-        <Projects id="projects" />
+        <Intro />
+        <About />
+        <Resume />
+        <Service />
+        <Skills />
+        <Projects />
+        <Contact />
       </main>
       {/* --------------Main section end--------------- */}
     </div>
