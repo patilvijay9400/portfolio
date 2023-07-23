@@ -8,7 +8,7 @@ const Resume = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        <i className="fa-solid fa-user me-2"></i> RESUME
+        <i className="fa-solid fa-briefcase me-2"></i> RESUME
       </span>
       <h2
         className="text-white text-xl md:text-6xl my-10"

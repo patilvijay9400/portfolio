@@ -9,7 +9,7 @@ const Projects = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        <i className="fa-solid fa-house me-2"></i> PROJECTS
+        <i className="fa-solid fa-grip-vertical me-2"></i> PROJECTS
       </span>
       <h2
         className="text-white text-xl md:text-6xl my-10"

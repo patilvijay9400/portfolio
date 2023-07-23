@@ -8,7 +8,7 @@ const Service = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        <i className="fa-solid fa-house me-2"></i> SERVICE
+        <i className="fa-solid fa-bars-staggered me-2"></i> SERVICE
       </span>
       <h2
         className="text-white text-xl md:text-6xl my-10"

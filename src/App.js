@@ -38,13 +38,13 @@ function App() {
                 <i className="fa-brands fa-linkedin-in"></i>
               </button>
               <button className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]">
-                <i className="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
               </button>
               <button className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]">
-                <i className="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-dribbble"></i>
               </button>
               <button className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]">
-                <i className="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
               </button>
             </div>
             <button className="w-full bg-[#28e98c] rounded-full text-gray-900 block text-center py-3 text-lg font-bold border-[#28e98c] hover:text-[#28e98c] hover:bg-transparent border">
@@ -74,7 +74,7 @@ function App() {
           </li>
           <li className="py-3">
             <a href="#resume" className="relative group">
-              <i className="fa-solid fa-user text-white hover:text-[#28e98c]"></i>
+              <i class="fa-solid fa-briefcase text-white hover:text-[#28e98c]"></i>
               <span className="absolute right-8 bg-gray-600 text-white px-2 py-1 text-xs rounded  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Resume
               </span>
@@ -82,7 +82,7 @@ function App() {
           </li>
           <li className="py-3">
             <a href="#service" className="relative group">
-              <i className="fa-solid fa-user text-white hover:text-[#28e98c]"></i>
+              <i class="fa-solid fa-bars-staggered text-white hover:text-[#28e98c]"></i>
               <span className="absolute right-8 bg-gray-600 text-white px-2 py-1 text-xs rounded  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Service
               </span>
@@ -90,7 +90,7 @@ function App() {
           </li>
           <li className="py-3">
             <a href="#skills" className="relative group">
-              <i className="fa-solid fa-user text-white hover:text-[#28e98c]"></i>
+              <i class="fa-solid fa-shapes text-white hover:text-[#28e98c]"></i>
               <span className="absolute right-8 bg-gray-600 text-white px-2 py-1 text-xs rounded  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Skills
               </span>
@@ -98,7 +98,7 @@ function App() {
           </li>
           <li className="py-3">
             <a href="#projects" className="relative group">
-              <i className="fa-solid fa-user text-white hover:text-[#28e98c]"></i>
+              <i class="fa-solid fa-grip-vertical text-white hover:text-[#28e98c]"></i>
               <span className="absolute right-8 bg-gray-600 text-white px-2 py-1 text-xs rounded  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Projects
               </span>
@@ -106,7 +106,7 @@ function App() {
           </li>
           <li className="py-3">
             <a href="#contact" className="relative group">
-              <i className="fa-solid fa-user text-white hover:text-[#28e98c]"></i>
+              <i class="fa-solid fa-address-card text-white hover:text-[#28e98c]"></i>
               <span className="absolute right-8 bg-gray-600 text-white px-2 py-1 text-xs rounded  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Contact
               </span>
