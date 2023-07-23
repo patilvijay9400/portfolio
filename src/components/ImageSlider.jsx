@@ -41,7 +41,7 @@ const ImageSlider = ({ images, onClose, selectedImageIndex }) => {
         </button>
       </div>
       <button
-        className="close-button absolute -top-12 -right-40 text-white"
+        className="close-button absolute -top-[2rem] right-0 md:-top-12 md:-right-40 text-white"
         onClick={onClose}
       >
         <i class="fa-solid fa-xmark"></i>

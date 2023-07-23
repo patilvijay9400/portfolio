@@ -28,7 +28,7 @@ const Intro = () => {
       </p>
       <a
         href="#projects"
-        className="relative w-20 h-20 md:w-44 md:h-44 p-2 rounded-full border border-slate-600 flex justify-center items-center ms-auto"
+        className="relative w-20 h-20 md:w-44 md:h-44 p-2 rounded-full border border-slate-600 flex justify-center items-center ms-auto mt-2 md:mt-8"
       >
         <img
           src={process.env.PUBLIC_URL + "/img/round-text.png"}

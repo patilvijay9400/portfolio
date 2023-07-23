@@ -23,6 +23,3 @@ body {
 .animate-spin-slow {
   animation: spin 5s linear infinite;
 }
-.react-images__view-image {
-  margin: 0 auto;
-}
