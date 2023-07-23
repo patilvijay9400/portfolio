@@ -18,7 +18,7 @@ const ImageSlider = ({ images, onClose, selectedImageIndex }) => {
   };
 
   return (
-    <div className="image-slider flex flex-col gap-3">
+    <div className="image-slider flex flex-col gap-3 relative">
       <div className="slider-image-container">
         <img
           src={images[currentIndex].src}
@@ -26,12 +26,25 @@ const ImageSlider = ({ images, onClose, selectedImageIndex }) => {
           className="h-[80vh]"
         />
       </div>
-      <div className="slider-navigation">
-        <button onClick={handlePrev}>&lt;</button>
-        <button onClick={handleNext}>&gt;</button>
+      <div className="slider-navigation absolute top-1/2 transfrom -translate-y-1/2 flex w-full justify-between px-5">
+        <button
+          className="text-white text-xl font-extrabold px-3 py-2 rounded-full hover:opacity-30 hover:bg-slate-300 hover:text-slate-50 "
+          onClick={handlePrev}
+        >
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button
+          className="text-white text-xl font-extrabold px-3 py-2 rounded-full hover:opacity-30 hover:bg-slate-300 hover:text-slate-50 "
+          onClick={handleNext}
+        >
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
       </div>
-      <button className="close-button" onClick={onClose}>
-        Close
+      <button
+        className="close-button absolute -top-12 -right-40 text-white"
+        onClick={onClose}
+      >
+        <i class="fa-solid fa-xmark"></i>
       </button>
     </div>
   );

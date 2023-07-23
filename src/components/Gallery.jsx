@@ -52,7 +52,7 @@ const ImageGallery = () => {
         </div>
       ))}
       {showSlider && (
-        <div className="modal-overlay fixed w-full h-full p-10 bg-slate-400 top-0 left-0 bottom-0 flex items-center justify-center">
+        <div className="modal-overlay fixed w-full h-full p-10 bg-slate-400 bg-opacity-50 top-0 left-0 bottom-0 flex items-center justify-center">
           <ImageSlider
             images={images}
             onClose={closeSlider}
