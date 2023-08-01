@@ -81,7 +81,7 @@ const Skills = () => {
               className="w-1/2"
             />
             <h2 className="text-white group-hover:text-[#28e98c] text-xl md:text-4xl">
-              70%
+              65%
             </h2>
           </div>
           <h4 className="text-white text-xl mt-6 mb-3">Javascript</h4>
@@ -115,7 +115,7 @@ const Skills = () => {
               className="w-1/2"
             />
             <h2 className="text-white group-hover:text-[#28e98c] text-xl md:text-4xl">
-              65%
+              55%
             </h2>
           </div>
           <h4 className="text-white text-xl mt-6 mb-3">Angular</h4>
@@ -144,15 +144,15 @@ const Skills = () => {
         >
           <div className="border border-slate-400 group-hover:border-[#28e98c] rounded-[6rem] flex justify-center items-center flex-col gap-4 md:gap-8 py-8 md:py-[4.5rem]">
             <img
-              src="https://www.svgrepo.com/show/349419/javascript.svg"
+              src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
               alt="figma"
               className="w-1/2"
             />
             <h2 className="text-white group-hover:text-[#28e98c] text-xl md:text-4xl">
-              70%
+              75%
             </h2>
           </div>
-          <h4 className="text-white text-xl mt-6 mb-3">Javascript</h4>
+          <h4 className="text-white text-xl mt-6 mb-3">Tailwind</h4>
         </div>
       </div>
     </div>

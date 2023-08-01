@@ -7,16 +7,20 @@ const ImageGallery = () => {
 
   const images = [
     {
-      src: "https://drake-react.vercel.app/assets/images/portfolio1.jpg",
-      langs: ["figma", "html"],
+      src: "/img/project-1.svg",
+      langs: ["HTML", "CSS", "Bootstrap"],
     },
     {
-      src: "https://drake-react.vercel.app/assets/images/portfolio2.jpg",
-      langs: ["HTML", "javascript"],
+      src: "/img/project-2.svg",
+      langs: ["HTML", "CSS", "Bootstrap"],
     },
     {
-      src: "https://drake-react.vercel.app/assets/images/portfolio3.jpg",
-      langs: ["React"],
+      src: "/img/project-3.svg",
+      langs: ["Adobe XD"],
+    },
+    {
+      src: "/img/project-4.svg",
+      langs: ["JavaScript", "HTML", "CSS"],
     },
   ];
 
@@ -34,7 +38,7 @@ const ImageGallery = () => {
       {images.map((image, index) => (
         <div key={index} className="relative group">
           <img
-            src={image.src}
+            src={process.env.PUBLIC_URL + image.src}
             alt={`project ${index + 1}`}
             onClick={() => openSlider(index)}
             className="rounded-lg cursor-pointer"

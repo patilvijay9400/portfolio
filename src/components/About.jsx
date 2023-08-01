@@ -11,19 +11,22 @@ const About = () => {
         <i className="fa-solid fa-user me-2"></i> ABOUT
       </span>
       <h2
-        className="text-white text-xl md:text-6xl my-10"
+        className="text-white text-xl md:text-6xl my-10 md:leading-[1.4]"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        Every great design begin with an even{" "}
-        <span className="text-[#28e98c]">better story</span>
+        A better story always comes before a
+        <span className="text-[#28e98c]"> beautiful design</span>.
       </h2>
-      <p className="text-slate-400" data-aos="fade-up" data-aos-duration="2000">
-        Since beginning my journey as a freelance designer nearly 8 years ago,
-        I've done remote work for agencies, consulted for startups, and
-        collaborated with talented people to create digital products for both
-        business and consumer use. I'm quietly confident, naturally curious, and
-        perpetually working on improving my chopsone design problem at a time.
+      <p
+        className="text-slate-400 leading-[2.3]"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        Greetings! I'm Vijay Patil, a driven and versatile Frontend Developer
+        with a passion for building cutting-edge digital solutions. Over the
+        past 2 years, I've been actively honing my skills and expertise in UI/UX
+        development, specializing in Angular and ReactJS.
       </p>
     </div>
   );

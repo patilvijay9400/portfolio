@@ -29,10 +29,13 @@ const Service = () => {
             </h2>
           </div>
           <p className="text-xs mb-7 text-slate-400">
-            I created digital products with unique ideas use Figma & Framer
+            I specialize in creating visually appealing and user-friendly
+            websites using the latest design trends and frontend technologies.
+            From wireframes to the final product, I ensure a seamless and
+            engaging user experience.
           </p>
           <button className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]">
-            24 PROJECTS
+            3 PROJECTS
           </button>
         </div>
         <div
@@ -42,14 +45,16 @@ const Service = () => {
         >
           <div className="flex">
             <h2 className="text-white text-xl md:text-2xl mb-2">
-              Website Design
+              User Interface (UI) Design
             </h2>
           </div>
           <p className="text-xs mb-7 text-slate-400">
-            I created digital products with unique ideas use Figma & Framer
+            I excel at crafting intuitive and modern user interfaces that
+            captivate users and deliver meaningful interactions. My designs are
+            tailored to meet your specific brand and user requirements.
           </p>
           <button className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]">
-            24 PROJECTS
+            12 PROJECTS
           </button>
         </div>
         <div
@@ -59,14 +64,16 @@ const Service = () => {
         >
           <div className="flex">
             <h2 className="text-white text-xl md:text-2xl mb-2">
-              Website Design
+              Frontend Development
             </h2>
           </div>
           <p className="text-xs mb-7 text-slate-400">
-            I created digital products with unique ideas use Figma & Framer
+            With expertise in frontend technologies such as React, HTML, CSS,
+            and JavaScript, I bring your designs to life and ensure a smooth
+            user experience across various devices.
           </p>
           <button className="font-semibold text-xs text-slate-400 rounded group-hover:text-[#28e98c]">
-            24 PROJECTS
+            5 PROJECTS
           </button>
         </div>
       </div>

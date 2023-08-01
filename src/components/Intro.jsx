@@ -15,8 +15,8 @@ const Intro = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        Say Hi from <span className="text-[#28e98c]">Vijay</span>, UI/UX
-        Designer and Developer
+        Hello, I'm <span className="text-[#28e98c]">Vijay Patil</span>, a
+        dedicated UI/UX Designer and Frontend Developer.
       </h1>
       <p
         className="text-slate-400 mt-2 md:mt-10"

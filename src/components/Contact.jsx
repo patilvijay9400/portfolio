@@ -22,7 +22,7 @@ export const Contact = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        hello@vijay.design
+        patilvijay416940@gmail.com
       </h6>
       <form
         action="https://formspree.io/f/{form_id}"

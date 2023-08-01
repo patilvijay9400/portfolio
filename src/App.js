@@ -28,24 +28,36 @@ function App() {
               patilvijay41694@gmail.com
             </p>
             <p className="text-white md;text-lg text-center">
-              Base in Los Angeles, CA
+              Pune, Maharashtra
             </p>
             <p className="text-gray-400 text-xs text-center">
-              © 2022 Drake. All Rights Reserved
+              © 2023 Vijay Patil. All Rights Reserved.
             </p>
             <div className="flex justify-center gap-2 items-center">
-              <button className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]">
+              <a
+                href="https://www.linkedin.com/in/vijay-patil-1430a219b/"
+                className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]"
+              >
                 <i className="fa-brands fa-linkedin-in"></i>
-              </button>
-              <button className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]">
+              </a>
+              <a
+                href="https://github.com/patilvijay9400"
+                className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]"
+              >
                 <i class="fa-brands fa-github"></i>
-              </button>
-              <button className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]">
+              </a>
+              <a
+                href="https://www.instagram.com/code_rioters/"
+                className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]"
+              >
                 <i class="fa-brands fa-dribbble"></i>
-              </button>
-              <button className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]">
+              </a>
+              <a
+                href="https://www.instagram.com/code_rioters/"
+                className="text-gray-500 border border-gray-500 rounded-full w-12 h-12 flex justify-center items-center hover:text-[#28e98c] hover:border-[#28e98c]"
+              >
                 <i class="fa-brands fa-instagram"></i>
-              </button>
+              </a>
             </div>
             <button className="w-full bg-[#28e98c] rounded-full text-gray-900 block text-center py-3 text-lg font-bold border-[#28e98c] hover:text-[#28e98c] hover:bg-transparent border">
               <i className="fa-regular fa-envelope"></i> Hire Me
