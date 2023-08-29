@@ -42,7 +42,7 @@ const Intro = () => {
           className="scroll-animation aos-init aos-animate"
           data-aos="fade-right"
         >
-          <h1 className="text-[#28e98c] text-xl md:text-6xl mb-2">10+</h1>
+          <h1 className="text-[#28e98c] text-xl md:text-6xl mb-2">2+</h1>
           <p className="text-slate-400">
             Years of <br />
             Experience
@@ -52,10 +52,9 @@ const Intro = () => {
           className="scroll-animation aos-init aos-animate ms-4 md:ms-20"
           data-aos="fade-left"
         >
-          <h1 className="text-[#28e98c] text-xl md:text-6xl mb-2">182+</h1>
+          <h1 className="text-[#28e98c] text-xl md:text-6xl mb-2">10+</h1>
           <p className="text-slate-400">
-            projects completed on <br />
-            15 countries
+            projects completed on <br />4 Frameworks
           </p>
         </div>
       </div>

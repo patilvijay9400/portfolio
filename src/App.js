@@ -6,6 +6,7 @@ import Service from "./components/Service";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import { Contact } from "./components/Contact";
+import Test from "./components/Test";
 function App() {
   return (
     <div className="main-container bg-slate-950">
