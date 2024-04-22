@@ -24,7 +24,7 @@ const ImageGallery = () => {
     {
       src: "/img/project-4.svg",
       langs: ["JavaScript", "HTML", "CSS"],
-      url: "http://portfolios.ecti.co.in/VijayP/Project/iGuru/index.html",
+      url: "https://github.com/patilvijay9400/JS_to-do-list",
     },
   ];
 

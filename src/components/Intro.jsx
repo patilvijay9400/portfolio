@@ -42,7 +42,7 @@ const Intro = () => {
           className="scroll-animation aos-init aos-animate"
           data-aos="fade-right"
         >
-          <h1 className="text-[#28e98c] text-xl md:text-6xl mb-2">2+</h1>
+          <h1 className="text-[#28e98c] text-xl md:text-6xl mb-2">3</h1>
           <p className="text-slate-400">
             Years of <br />
             Experience
