@@ -9,18 +9,22 @@ const ImageGallery = () => {
     {
       src: "/img/project-1.svg",
       langs: ["HTML", "CSS", "Bootstrap"],
+      url: "http://portfolios.ecti.co.in/VijayP/Project/iGuru/index.html",
     },
     {
       src: "/img/project-2.svg",
       langs: ["HTML", "CSS", "Bootstrap"],
+      url: "http://portfolios.ecti.co.in/VijayP/Project/Mirora-Watch_&_Luxury_Store/index.html",
     },
     {
       src: "/img/project-3.svg",
       langs: ["Adobe XD"],
+      url: "https://xd.adobe.com/view/f627a53e-d4f5-4045-bacd-e4237b15df7f-a374/",
     },
     {
       src: "/img/project-4.svg",
       langs: ["JavaScript", "HTML", "CSS"],
+      url: "http://portfolios.ecti.co.in/VijayP/Project/iGuru/index.html",
     },
   ];
 
@@ -52,6 +56,7 @@ const ImageGallery = () => {
                 {lang}
               </div>
             ))}
+            <a href={image.url} target="_blank" rel="noreferrer" className="bg-blue-700 text-white py-1 px-2 rounded-md hover:bg-blue-900 text-sm">View Project</a>
           </div>
         </div>
       ))}

@@ -25,6 +25,7 @@ const ImageSlider = ({ images, onClose, selectedImageIndex }) => {
           alt={`project ${currentIndex + 1}`}
           className="h-[80vh]"
         />
+        <a href={images[currentIndex].url} target="_blank" rel="noreferrer" className="absolute right-4 bottom-4 bg-blue-700 text-white py-2 px-4 rounded-md hover:bg-blue-900 text-lg">View Project</a>
       </div>
       <div className="slider-navigation absolute top-1/2 transfrom -translate-y-1/2 flex w-full justify-between px-5">
         <button
