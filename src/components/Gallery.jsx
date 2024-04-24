@@ -7,6 +7,11 @@ const ImageGallery = () => {
 
   const images = [
     {
+      src: "/img/project-5.png",
+      langs: ["MERN Stack"],
+      url: "https://social-media-app-vijays-projects-65858986.vercel.app",
+    },
+    {
       src: "/img/project-1.svg",
       langs: ["HTML", "CSS", "Bootstrap"],
       url: "http://portfolios.ecti.co.in/VijayP/Project/iGuru/index.html",
