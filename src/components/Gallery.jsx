@@ -7,7 +7,7 @@ const ImageGallery = () => {
 
   const images = [
     {
-      src: "/img/project-5.png",
+      src: "/img/project-5.jpeg",
       langs: ["MERN Stack"],
       url: "https://social-media-app-vijays-projects-65858986.vercel.app",
     },
