@@ -56,12 +56,12 @@ const ImageGallery = () => {
             {image.langs.map((lang, langIndex) => (
               <div
                 key={langIndex}
-                className="bg-slate-300 rounded-xl px-2 py-1"
+                className="bg-slate-300 rounded-xl px-2 py-1 text-xs md:text-sm"
               >
                 {lang}
               </div>
             ))}
-            <a href={image.url} target="_blank" rel="noreferrer" className="bg-blue-700 text-white py-1 px-2 rounded-md hover:bg-blue-900 text-sm">View Project</a>
+            <a href={image.url} target="_blank" rel="noreferrer" className="bg-blue-700 text-white py-1 px-2 rounded-md hover:bg-blue-900 text-xs md:text-sm">View Project</a>
           </div>
         </div>
       ))}
