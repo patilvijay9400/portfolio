@@ -18,7 +18,7 @@ const ImageSlider = ({ images, onClose, selectedImageIndex }) => {
   };
 
   return (
-    <div className="image-slider flex flex-col gap-3 relative">
+    <div className="image-slider hidden md:flex flex-col gap-3 relative">
       <div className="slider-image-container">
         <img
           src={images[currentIndex].src}
