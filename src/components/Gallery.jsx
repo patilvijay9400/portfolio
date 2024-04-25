@@ -43,7 +43,7 @@ const ImageGallery = () => {
   };
 
   return (
-    <div className="image-gallery grid grid-cols-1 md:grid-cols-2 gap-5">
+    <div className="image-gallery grid grid-cols-1 md:grid-cols-2 gap-5 mb-4">
       {images.map((image, index) => (
         <div key={index} className="relative group">
           <img
@@ -66,7 +66,7 @@ const ImageGallery = () => {
         </div>
       ))}
       {showSlider && (
-        <div className="modal-overlay fixed w-full h-full p-3 md:p-10 bg-slate-400 bg-opacity-50 top-0 left-0 bottom-0 flex items-center justify-center">
+        <div className="hidden md:flex modal-overlay fixed w-full h-full p-3 md:p-10 bg-slate-400 bg-opacity-50 top-0 left-0 bottom-0 items-center justify-center">
           <ImageSlider
             images={images}
             onClose={closeSlider}
