@@ -43,7 +43,7 @@ const ImageGallery = () => {
   };
 
   return (
-    <div className="image-gallery grid grid-cols-2 gap-5">
+    <div className="image-gallery grid grid-cols-1 md:grid-cols-2 gap-5">
       {images.map((image, index) => (
         <div key={index} className="relative group">
           <img
